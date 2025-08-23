@@ -270,4 +270,103 @@ html {
   scroll-behavior: smooth;
 }
 
+
+/* Hide yellow circle below 490px */
+@media (max-width: 490px) { 
+  .circle.yellow { 
+    display: none;
+  }
+
+    .hero {
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;  
+    align-items: center;
+    padding: 120px 20px 60px;     
+    min-height: auto;             
+    gap: 25px;
+    position: relative;
+  }
+
+  .hero img {
+    flex: none;           
+    max-width: 70%;       
+    height: auto;         
+    margin: 20px auto 0;  
+    display: block; 
+}
+
+}
+
+/* === Mobile Hero Fixes (470px downwards) === */
+@media (max-width: 470px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 20px 60px; 
+    gap: 25px;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;  
+    margin-bottom: 12px;
+  }
+
+  .hero-text h2 {
+    font-size: 20px;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+  }
+
+  .hero img {
+    max-width: 70%;   
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Fix the yellow circle spacing */
+  .circle.yellow {
+    width: 60px;
+    height: 60px;
+    top: 90px;   
+    left: 50%;   
+    transform: translateX(-50%);
+  }
+
+   .circle.green {
+    width: 50px;
+    height: 50px;
+    bottom: 15px;  
+    left: 20px;     
+  }
+
+  .circle.red {
+    width: 50px;
+    height: 50px;
+    bottom: 15px;  
+    right: 20px;    
+  }
+}
+
+/* Extra small screens (200px–320px) */
+@media (max-width: 320px) {
+  .hero-text h1 {
+    font-size: 26px;
+  }
+
+  .hero img {
+    max-width: 65%;
+  }
+
+  .circle.yellow {
+    width: 45px;
+    height: 45px;
+    top: 80px;
+  }
+}
+
+
+
  
