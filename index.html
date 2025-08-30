@@ -1,49 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EMDY</title>
-  <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">-->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etherean Missions Dynamic Youth</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <div class="logo-section">
-      <img src="emdylogo.png" alt="EMDY Logo">
-      <span>EMDY</span>
-    </div>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#functions">Functions</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#participation">Participation</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#leaders">Leaders</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <img src="emdylogo.png" alt="" style="width: 60px;">
+        <div class="navigation">
+            <ul>
+                <i id= 'menu-close' class="fas fa-times"></i>
+                <li><a class="active" href="#">Home</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                  <li><a href="events.html">Events</a></li>
+                    <!--<li><a href="#registration">Participation</a></li> -->
+                    <!-- <li><a href="#experts">Leaders</a></li> -->
+                     <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id ='menu-btn' src="Hamburger_icon.svg.png" alt="">
+        </div>
     </nav>
-    <button class="menu-btn"><i class="ri-menu-line"></i></button>
-  </header>
 
-   <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-text">
-      <h1>ETHEREAN MISSION</h1>
-      <h2>DYNAMIC YOUTH</h2>
-      <p>BUILDING COMMUNITY AND TOGETHERNESS</p>
-      <a href="#about" class="btn">WELCOME TO EMDY</a>
+    <section id="home" class="reveal">
+        <h2>ETHEREAN MISSION DYNAMIC YOUTH</h2>
+        <P>Building Community And Togetherness</P>
+        <div class="btn">
+            <a class="blue"href="#">Learn More</a>
+            <a class="yellow" href="#">Visit Church</a>
+        </div>
+    </section>
+
+    <section id="features" class="reveal">
+        <h1>What Drives Us</h1>
+        <p>Empowering youth through unity, purpose, and spiritual growth for a better world</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-bullseye"></i>
+                <h3>Our Mission</h3>
+                <p>To equip people with life tools, unite humanity, and restore self-dignity, especially within African communities.</p>
+            </div>
+
+               <div class="fea-box">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Our Vision</h3>
+                <p>To create a unified world where everyone activates and promotes the divine potential in one another</p>
+            </div>
+
+               <div class="fea-box">
+               <i class="fas fa-praying-hands"></i>
+                <h3>Objectives</h3>
+                <p>To promote spiritual growth, unity of life, and revive Africa’s mystical traditions for human empowerment..</p>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section id="events" class="reveal">
+        <h1>Events</h1>
+        <p>Empowering youth through impactful events that inspire, connect, and uplift.</p>
+        <div class="event-box">
+
+            <div class="events">
+                <img src="chocolate.jpg" alt="">
+                <div class="details">
+                    <span>Update 21/8/25</span>
+                    <h6>Chocolate Day</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(1,300)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    FREE
+                </div>
+            </div>
+
+              
+              <div class="events">
+                <img src="chocolate.jpg" alt="">
+                <div class="details">
+                    <span>Update 21/8/25</span>
+                    <h6>Chocolate Day</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(1,300)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    FREE
+                </div>
+            </div>
+
+              <div class="events">
+                <img src="chocolate.jpg" alt="">
+                <div class="details">
+                    <span>Update 21/8/25</span>
+                    <h6>Chocolate Day</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(1,300)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    FREE
+                </div>
+            </div>              
+              
+         </div>
+    </section>
+
+
+
+    <section id="registration" class="reveal">
+        <div class="reminder">
+            <p>Get involved and be part of the movement</p>
+            <h1>Register Now</h1>
+            <div class="time">
+                <div class="date">
+                    60 <br> Days
+                </div>
+                 <div class="date">
+                    23 <br> hours
+                </div>
+                 <div class="date">
+                    06 <br> minutes
+                </div>
+                 <div class="date">
+                    58 <br> seconds
+                </div>
+            </div>
+        </div>
+            <div class="form" class="reveal">
+                <h3>Register Now</h3>
+                <input type="text"placeholder ="Name" name="" id="">
+                <input type="email"placeholder ="Email Address" name="" id="">
+                <input type="text"placeholder ="Number" name="" id="">
+                 <div class="btn">
+            <a class="yellow"href="#">Submit</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experts" class="reveal">
+        <h1>Our Leaders</h1>
+        <p>Meet the passionate individuals guiding our vision and empowering the youth with wisdom, purpose, and service.</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="profile.png" alt="">
+                <h6>Bro Ishmael Tetteh</h6>
+                <p>Our Spritual Master and Founder</p>
+                <div class="pro-links">
+                   <i class="fab fa-facebook-f"></i> 
+                    <i class="fab fa-instagram"></i> 
+                     <i class="fab fa-tiktok"></i> 
+                </div>
+            </div>
+
+             <div class="profile" class="reveal">
+                <img src="profile.png" alt="">
+                <h6>Bro Ishmael Tetteh</h6>
+                <p>Our Spritual Master and Founder</p>
+                <div class="pro-links">
+                   <i class="fab fa-facebook-f"></i> 
+                    <i class="fab fa-instagram"></i> 
+                     <i class="fab fa-tiktok"></i> 
+                </div>
+            </div>
+
+             <div class="profile">
+                <img src="profile.png" alt="">
+                <h6>Bro Ishmael Tetteh</h6>
+                <p>Our Spritual Master and Founder</p>
+                <div class="pro-links">
+                   <i class="fab fa-facebook-f"></i> 
+                    <i class="fab fa-instagram"></i> 
+                     <i class="fab fa-tiktok"></i> 
+                </div>
+            </div>
+
+             <div class="profile">
+                <img src="profile.png" alt="">
+                <h6>Bro Ishmael Tetteh</h6>
+                <p>Our Spritual Master and Founder</p>
+                <div class="pro-links">
+                   <i class="fab fa-facebook-f"></i> 
+                    <i class="fab fa-instagram"></i> 
+                     <i class="fab fa-tiktok"></i> 
+                </div>
+            </div>
+
+             <div class="profile">
+                <img src="profile.png" alt="">
+                <h6>Bro Ishmael Tetteh</h6>
+                <p>Our Spritual Master and Founder</p>
+                <div class="pro-links">
+                   <i class="fab fa-facebook-f"></i> 
+                    <i class="fab fa-instagram"></i> 
+                     <i class="fab fa-tiktok"></i> 
+                </div>
+            </div>
+
+             <div class="profile">
+                <img src="profile.png" alt="">
+                <h6>Bro Ishmael Tetteh</h6>
+                <p>Our Spritual Master and Founder</p>
+                <div class="pro-links">
+                   <i class="fab fa-facebook-f"></i> 
+                    <i class="fab fa-instagram"></i> 
+                     <i class="fab fa-tiktok"></i> 
+                </div>
+            </div>
+
+                <div class="profile">
+                <img src="profile.png" alt="">
+                <h6>Bro Ishmael Tetteh</h6>
+                <p>Our Spritual Master and Founder</p>
+                <div class="pro-links">
+                   <i class="fab fa-facebook-f"></i> 
+                    <i class="fab fa-instagram"></i> 
+                     <i class="fab fa-tiktok"></i> 
+                </div>
+            </div>
+
+                <div class="profile">
+                <img src="profile.png" alt="">
+                <h6>Bro Ishmael Tetteh</h6>
+                <p>Our Spritual Master and Founder</p>
+                <div class="pro-links">
+                   <i class="fab fa-facebook-f"></i> 
+                    <i class="fab fa-instagram"></i> 
+                     <i class="fab fa-tiktok"></i> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="reveal">
+        <div class="footer-col">
+            <h3>Top Events</h3>
+            <li>Chocolate Day</li>
+             <li>Youth Camp</li>
+              <li>Master's Feet</li>
+               <li>The Passionate Leader</li>
+        </div>
+
+        <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Contact</li>
+        <li>Participate</li>
     </div>
-    <img src="emdylogo.png" alt="Etherean Mission Logo">
 
-    <div class="circle yellow"></div>
-  <div class="circle green"></div>
-  <div class="circle red"></div>
-  </section>
 
-  <script src="app.js"></script>
+        <div class="footer-col">
+         <h3>Contact Us</h3>
+        <li>Email: info@example.com</li>
+        <li>Phone: +123 456 7890</li>
+        <li>Location: Accra, Ghana</li>
+        </div>
+
+
+    <div class="footer-col">
+    <h3>Support</h3>
+    <li>Donate</li>
+    <li>Partner with Us</li>
+    <li>Sponsor an Event</li>
+    <li>Volunteer</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p> Subscribe to our newsletter and be part of the journey.</p>
+        <div class="subscribe">
+            <input type="text"placeholder='Your Email addre'>
+            <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright &copy; 2025 Charles. All rights reserved.</p>
+        <div class="pro-links">
+             <i class="fab fa-facebook-f"></i> 
+              <i class="fab fa-instagram"></i> 
+                 <i class="fab fa-tiktok"></i> 
+        </div>
+    </div>
+
+    </footer>
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
 </body>
 </html>
