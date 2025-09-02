@@ -10,7 +10,7 @@ It serves as a hub for information, connection, and participation.
 
 🏗️ HTML5 & CSS3 – structure & styling
 
-🎨 Responsive Media Queries – mobile-first design
+🎨 Responsive Media Queries – mobile and tablet design
 
 ⚡ JavaScript (optional) – interactivity (e.g., countdowns, forms)
 
