@@ -12,7 +12,14 @@ It serves as a hub for information, connection, and participation.
 
 🎨 Responsive Media Queries – mobile and tablet design
 
-⚡ JavaScript (optional) – interactivity (e.g., countdowns, forms)
+⚡ JavaScript (optional) – interactivity (e.g., countdowns, forms, map integration)
 
 ☁️ Netlify – hosting & deployment
+
+# Sections
+- Home
+- About us
+- Resources
+- Events
+- Contact
 
